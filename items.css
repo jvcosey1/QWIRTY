@@ -1,0 +1,58 @@
+.items {
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: flex-end;
+    /* flex-basis: 256px; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+    box-shadow: 1cm;
+    flex-flow: row wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* width: 100%; */
+
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+.item-name {
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fact-line {
+    display: flex;
+    background-color: blueviolet;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width:768px) {
+    body {
+        background-color: indigo;
+    }
+}
+
+.add-item {
+    background-color: blueviolet;
+    color: wheat;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 256px;
+}
